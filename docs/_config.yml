@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
-title: template_data_repo
-description: Standardised template for mysociety data repositories
+title: publicwhip-data
+description: More accessible version of public whip database
 
-baseurl: "/template_data_repo"
+baseurl: "/publicwhip-data"
 url: "https://pages.mysociety.org"
 
 collections:
