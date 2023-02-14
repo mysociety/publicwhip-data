@@ -11,7 +11,7 @@ contributors:
   path: https://mysociety.org
   role: author
 custom:
-  build: publicwhip_data.process.
+  build: publicwhip_data.process:fetch_and_move_pw
   tests:
   - test_public_whip_data
   dataset_order: 0
