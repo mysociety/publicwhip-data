@@ -1,0 +1,39 @@
+name: public_whip_data
+title: Public Whip data
+description: "Reprocessed data dump from publicwhip.org.uk\n"
+version: 0.1.0
+licenses:
+- name: CC-BY-4.0
+  path: https://creativecommons.org/licenses/by/4.0/
+  title: Creative Commons Attribution 4.0 International License
+contributors:
+- title: mySociety
+  path: https://mysociety.org
+  role: author
+custom:
+  build: publicwhip_data.process.
+  tests:
+  - test_public_whip_data
+  dataset_order: 0
+  download_options:
+    gate: default
+    survey: default
+    header_text: default
+  formats:
+    csv: false
+    parquet: true
+  composite:
+    xlsx:
+      include: all
+      exclude: none
+      render: false
+    sqlite:
+      include: all
+      exclude: none
+      render: false
+    json:
+      include: all
+      exclude: none
+      render: false
+  change_log:
+    0.1.0: ''

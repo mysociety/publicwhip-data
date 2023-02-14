@@ -1,4 +1,5 @@
 import rich_click as click
+from .process import fetch_and_move_pw
 
 
 @click.group()
@@ -11,8 +12,8 @@ def main():
 
 
 @cli.command()
-def example():
-    print("This is an example function")
+def download():
+    fetch_and_move_pw()
 
 
 if __name__ == "__main__":
