@@ -3,6 +3,6 @@ title: "Download publicwhip_data"
 layout: datasets/front
 ---
 
-# Dataset download site title
+# Public whip data
 
-Here is some text underneath that.
+Public whip database dumps reformatted for ease of access through duckdb.
