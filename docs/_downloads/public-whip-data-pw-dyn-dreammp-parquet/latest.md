@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_dyn_dreammp
 filename: pw_dyn_dreammp.parquet
 version: latest
-full_version: 0.1.0
+full_version: 0.2.0
 file: /data/public_whip_data/latest/pw_dyn_dreammp.parquet
 ---
