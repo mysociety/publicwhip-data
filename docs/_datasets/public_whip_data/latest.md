@@ -41,11 +41,12 @@ custom:
     0.2.0: 'Change in data for resource(s): pw_division,pw_vote'
     0.3.0: 'Change in data for resource(s): pw_vote'
     0.4.0: 'Change in data for resource(s): pw_division,pw_vote'
+    0.5.0: 'Change in data for resource(s): pw_division,pw_vote'
 resources:
 - title: Divisions
   description: Division data table
   custom:
-    row_count: 12662
+    row_count: 12670
   path: pw_division.parquet
   name: pw_division
   profile: data-resource
@@ -149,7 +150,7 @@ resources:
       constraints:
         unique: false
       example: ''
-  hash: 1998541b0a9615882aac2b3857e2776e
+  hash: fd52b8797f034d2805d1fa2d600bdbbb
 - title: Dream MP data table
   description: Datatable of 'dream MPs', user created to compare actual MPs to (powers
     TWFY policy lines)
@@ -363,7 +364,7 @@ resources:
       description: ID of ministerial office
       constraints:
         unique: true
-      example: 64633985
+      example: 64653236
     - name: dept
       type: string
       description: Department of ministerial office
@@ -403,7 +404,7 @@ resources:
         enum:
         - ''
       example: ''
-  hash: a8a550f04ab7ba9495f65a2e75d945f3
+  hash: 9d736fddb66e647dfc71c87d279c26ee
 - title: MP membership table
   description: Datatable of MP information
   custom:
@@ -513,7 +514,7 @@ resources:
 - title: Vote data table
   description: Datatable of votes
   custom:
-    row_count: 4158463
+    row_count: 4161387
   path: pw_vote.parquet
   name: pw_vote
   profile: data-resource
@@ -549,7 +550,7 @@ resources:
         - abstention
         - spoiled
       example: abstention
-  hash: 627018e78e3437574caac9226e1585e3
-full_version: 0.4.0
+  hash: fb8b18ba9d3d0f83dfd3b34e7e38ca10
+full_version: 0.5.0
 permalink: /datasets/public_whip_data/latest
 ---

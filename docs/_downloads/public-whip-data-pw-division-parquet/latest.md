@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_division
 filename: pw_division.parquet
 version: latest
-full_version: 0.4.0
+full_version: 0.5.0
 file: /data/public_whip_data/latest/pw_division.parquet
 ---

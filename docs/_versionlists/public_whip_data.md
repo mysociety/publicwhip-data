@@ -12,9 +12,12 @@ versions:
   - '0.3'
   - 0.3.0
   0.4.0:
-  - '0'
   - '0.4'
   - 0.4.0
+  0.5.0:
+  - '0'
+  - '0.5'
+  - 0.5.0
   - latest
 permalink: /datasets/public_whip_data/versions
 ---
