@@ -2,7 +2,7 @@
     "name": "public_whip_data",
     "title": "Public Whip data",
     "description": "Reprocessed data dump from publicwhip.org.uk\n",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -54,7 +54,8 @@
             "0.2.0": "Change in data for resource(s): pw_division,pw_vote",
             "0.3.0": "Change in data for resource(s): pw_vote",
             "0.4.0": "Change in data for resource(s): pw_division,pw_vote",
-            "0.5.0": "Change in data for resource(s): pw_division,pw_vote"
+            "0.5.0": "Change in data for resource(s): pw_division,pw_vote",
+            "0.5.1": "Minor change in data for resource(s): pw_division,pw_moffice"
         }
     },
     "resources": [
@@ -203,7 +204,7 @@
                     }
                 ]
             },
-            "hash": "fd52b8797f034d2805d1fa2d600bdbbb"
+            "hash": "93834241251e3df960a415b06cbaa553"
         },
         {
             "title": "Dream MP data table",
@@ -458,7 +459,7 @@
                         "constraints": {
                             "unique": true
                         },
-                        "example": 64653236
+                        "example": 64672487
                     },
                     {
                         "name": "dept",
@@ -519,7 +520,7 @@
                     }
                 ]
             },
-            "hash": "9d736fddb66e647dfc71c87d279c26ee"
+            "hash": "526a0e153181d5b2b897d7d93fa2d5cf"
         },
         {
             "title": "MP membership table",
