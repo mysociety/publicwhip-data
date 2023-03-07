@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_dyn_dreamvote
 filename: pw_dyn_dreamvote.csv
 version: latest
-full_version: 0.6.1
+full_version: 0.6.2
 file: /data/public_whip_data/latest/pw_dyn_dreamvote.csv
 ---

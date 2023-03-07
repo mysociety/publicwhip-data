@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_mp
 filename: pw_mp.parquet
 version: latest
-full_version: 0.6.1
+full_version: 0.6.2
 file: /data/public_whip_data/latest/pw_mp.parquet
 ---

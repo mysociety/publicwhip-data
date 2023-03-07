@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_dyn_wiki_motion
 filename: pw_dyn_wiki_motion.parquet
 version: latest
-full_version: 0.6.1
+full_version: 0.6.2
 file: /data/public_whip_data/latest/pw_dyn_wiki_motion.parquet
 ---
