@@ -2,7 +2,7 @@
     "name": "public_whip_data",
     "title": "Public Whip data",
     "description": "Reprocessed data dump from publicwhip.org.uk\n",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -59,7 +59,8 @@
             "0.6.0": "Change in data for resource(s): pw_moffice,pw_mp,pw_vote",
             "0.6.1": "Minor change in data for resource(s): pw_moffice",
             "0.6.2": "Minor change in data for resource(s): pw_moffice",
-            "0.7.0": "Change in data for resource(s): pw_division,pw_vote"
+            "0.7.0": "Change in data for resource(s): pw_division,pw_vote",
+            "0.8.0": "Change in data for resource(s): pw_division,pw_vote"
         }
     },
     "resources": [
@@ -67,7 +68,7 @@
             "title": "Divisions",
             "description": "Division data table",
             "custom": {
-                "row_count": 12672
+                "row_count": 12681
             },
             "path": "pw_division.parquet",
             "name": "pw_division",
@@ -208,7 +209,7 @@
                     }
                 ]
             },
-            "hash": "eb6b78f38888bb1bb3aff75933a8142c"
+            "hash": "776259093a7cf8a65c321c238e813387"
         },
         {
             "title": "Dream MP data table",
@@ -463,7 +464,7 @@
                         "constraints": {
                             "unique": true
                         },
-                        "example": 64750796
+                        "example": 64770482
                     },
                     {
                         "name": "dept",
@@ -524,7 +525,7 @@
                     }
                 ]
             },
-            "hash": "f5ea868dd849a0d0c3b55c875f7b4991"
+            "hash": "1d87b98728454c7f57724e5bd93ba052"
         },
         {
             "title": "MP membership table",
@@ -682,7 +683,7 @@
             "title": "Vote data table",
             "description": "Datatable of votes",
             "custom": {
-                "row_count": 4162126
+                "row_count": 4165972
             },
             "path": "pw_vote.parquet",
             "name": "pw_vote",
@@ -731,7 +732,7 @@
                     }
                 ]
             },
-            "hash": "d968ff6f8e47642fb5413fed94b55aba"
+            "hash": "236f264364c6fb2dd574d28b6e463876"
         }
     ]
 }
