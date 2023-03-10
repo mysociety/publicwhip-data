@@ -48,6 +48,7 @@ custom:
     0.6.2: 'Minor change in data for resource(s): pw_moffice'
     0.7.0: 'Change in data for resource(s): pw_division,pw_vote'
     0.8.0: 'Change in data for resource(s): pw_division,pw_vote'
+    0.8.1: 'Minor change in data for resource(s): pw_moffice'
 resources:
 - title: Divisions
   description: Division data table
@@ -370,7 +371,7 @@ resources:
       description: ID of ministerial office
       constraints:
         unique: true
-      example: 64770482
+      example: 64790168
     - name: dept
       type: string
       description: Department of ministerial office
@@ -410,7 +411,7 @@ resources:
         enum:
         - ''
       example: ''
-  hash: 1d87b98728454c7f57724e5bd93ba052
+  hash: 4d2426398084527c2e26104a92d8bcc3
 - title: MP membership table
   description: Datatable of MP information
   custom:
@@ -557,6 +558,6 @@ resources:
         - spoiled
       example: abstention
   hash: 236f264364c6fb2dd574d28b6e463876
-full_version: 0.8.0
+full_version: 0.8.1
 permalink: /datasets/public_whip_data/latest
 ---
