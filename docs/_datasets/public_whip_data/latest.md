@@ -49,6 +49,7 @@ custom:
     0.7.0: 'Change in data for resource(s): pw_division,pw_vote'
     0.8.0: 'Change in data for resource(s): pw_division,pw_vote'
     0.8.1: 'Minor change in data for resource(s): pw_moffice'
+    0.9.0: 'Change in data for resource(s): pw_moffice,pw_vote'
 resources:
 - title: Divisions
   description: Division data table
@@ -157,7 +158,7 @@ resources:
       constraints:
         unique: false
       example: ''
-  hash: 776259093a7cf8a65c321c238e813387
+  hash: 8f18bb9dc9d55923f5d3e04846771aaa
 - title: Dream MP data table
   description: Datatable of 'dream MPs', user created to compare actual MPs to (powers
     TWFY policy lines)
@@ -356,7 +357,7 @@ resources:
 - title: Ministerial office data table
   description: Connection of ministerial office to person
   custom:
-    row_count: 19686
+    row_count: 19738
   path: pw_moffice.parquet
   name: pw_moffice
   profile: data-resource
@@ -371,7 +372,7 @@ resources:
       description: ID of ministerial office
       constraints:
         unique: true
-      example: 64790168
+      example: 64809854
     - name: dept
       type: string
       description: Department of ministerial office
@@ -411,7 +412,7 @@ resources:
         enum:
         - ''
       example: ''
-  hash: 4d2426398084527c2e26104a92d8bcc3
+  hash: 0bfe3624fbd2eda1fc22552045f1bb32
 - title: MP membership table
   description: Datatable of MP information
   custom:
@@ -517,11 +518,11 @@ resources:
       constraints:
         unique: true
       example: uk.org.publicwhip/lord/100001
-  hash: 5cd94d83a31930317e2dc9f382dea000
+  hash: 80eebd3e6c0b07d8a3d68008bd5a00bf
 - title: Vote data table
   description: Datatable of votes
   custom:
-    row_count: 4165972
+    row_count: 4165975
   path: pw_vote.parquet
   name: pw_vote
   profile: data-resource
@@ -557,7 +558,7 @@ resources:
         - abstention
         - spoiled
       example: abstention
-  hash: 236f264364c6fb2dd574d28b6e463876
-full_version: 0.8.1
+  hash: a6d9244ec498ff1b0265f622517a1e43
+full_version: 0.9.0
 permalink: /datasets/public_whip_data/latest
 ---

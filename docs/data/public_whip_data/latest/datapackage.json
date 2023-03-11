@@ -2,7 +2,7 @@
     "name": "public_whip_data",
     "title": "Public Whip data",
     "description": "Reprocessed data dump from publicwhip.org.uk\n",
-    "version": "0.8.1",
+    "version": "0.9.0",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -61,7 +61,8 @@
             "0.6.2": "Minor change in data for resource(s): pw_moffice",
             "0.7.0": "Change in data for resource(s): pw_division,pw_vote",
             "0.8.0": "Change in data for resource(s): pw_division,pw_vote",
-            "0.8.1": "Minor change in data for resource(s): pw_moffice"
+            "0.8.1": "Minor change in data for resource(s): pw_moffice",
+            "0.9.0": "Change in data for resource(s): pw_moffice,pw_vote"
         }
     },
     "resources": [
@@ -210,7 +211,7 @@
                     }
                 ]
             },
-            "hash": "776259093a7cf8a65c321c238e813387"
+            "hash": "8f18bb9dc9d55923f5d3e04846771aaa"
         },
         {
             "title": "Dream MP data table",
@@ -447,7 +448,7 @@
             "title": "Ministerial office data table",
             "description": "Connection of ministerial office to person",
             "custom": {
-                "row_count": 19686
+                "row_count": 19738
             },
             "path": "pw_moffice.parquet",
             "name": "pw_moffice",
@@ -465,7 +466,7 @@
                         "constraints": {
                             "unique": true
                         },
-                        "example": 64790168
+                        "example": 64809854
                     },
                     {
                         "name": "dept",
@@ -526,7 +527,7 @@
                     }
                 ]
             },
-            "hash": "4d2426398084527c2e26104a92d8bcc3"
+            "hash": "0bfe3624fbd2eda1fc22552045f1bb32"
         },
         {
             "title": "MP membership table",
@@ -678,13 +679,13 @@
                     }
                 ]
             },
-            "hash": "5cd94d83a31930317e2dc9f382dea000"
+            "hash": "80eebd3e6c0b07d8a3d68008bd5a00bf"
         },
         {
             "title": "Vote data table",
             "description": "Datatable of votes",
             "custom": {
-                "row_count": 4165972
+                "row_count": 4165975
             },
             "path": "pw_vote.parquet",
             "name": "pw_vote",
@@ -733,7 +734,7 @@
                     }
                 ]
             },
-            "hash": "236f264364c6fb2dd574d28b6e463876"
+            "hash": "a6d9244ec498ff1b0265f622517a1e43"
         }
     ]
 }

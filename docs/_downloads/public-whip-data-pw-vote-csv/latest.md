@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_vote
 filename: pw_vote.csv
 version: latest
-full_version: 0.8.1
+full_version: 0.9.0
 file: /data/public_whip_data/latest/pw_vote.csv
 ---

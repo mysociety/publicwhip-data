@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_dyn_wiki_motion
 filename: pw_dyn_wiki_motion.csv
 version: latest
-full_version: 0.8.1
+full_version: 0.9.0
 file: /data/public_whip_data/latest/pw_dyn_wiki_motion.csv
 ---
