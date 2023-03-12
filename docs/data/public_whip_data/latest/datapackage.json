@@ -2,7 +2,7 @@
     "name": "public_whip_data",
     "title": "Public Whip data",
     "description": "Reprocessed data dump from publicwhip.org.uk\n",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "licenses": [
         {
             "name": "CC-BY-4.0",
@@ -62,7 +62,8 @@
             "0.7.0": "Change in data for resource(s): pw_division,pw_vote",
             "0.8.0": "Change in data for resource(s): pw_division,pw_vote",
             "0.8.1": "Minor change in data for resource(s): pw_moffice",
-            "0.9.0": "Change in data for resource(s): pw_moffice,pw_vote"
+            "0.9.0": "Change in data for resource(s): pw_moffice,pw_vote",
+            "0.9.1": "Minor change in data for resource(s): pw_moffice"
         }
     },
     "resources": [
@@ -466,7 +467,7 @@
                         "constraints": {
                             "unique": true
                         },
-                        "example": 64809854
+                        "example": 64829592
                     },
                     {
                         "name": "dept",
@@ -527,7 +528,7 @@
                     }
                 ]
             },
-            "hash": "0bfe3624fbd2eda1fc22552045f1bb32"
+            "hash": "c119d17cecdb4d52882011f40b4d446a"
         },
         {
             "title": "MP membership table",
