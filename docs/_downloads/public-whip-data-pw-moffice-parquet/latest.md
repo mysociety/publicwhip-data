@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_moffice
 filename: pw_moffice.parquet
 version: latest
-full_version: 0.9.2
+full_version: 0.9.3
 file: /data/public_whip_data/latest/pw_moffice.parquet
 ---

@@ -5,6 +5,6 @@ package: public_whip_data
 title: pw_dyn_dreammp
 filename: pw_dyn_dreammp.csv
 version: latest
-full_version: 0.9.2
+full_version: 0.9.3
 file: /data/public_whip_data/latest/pw_dyn_dreammp.csv
 ---
