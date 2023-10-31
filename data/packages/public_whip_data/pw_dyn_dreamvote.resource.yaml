@@ -1,0 +1,54 @@
+title: Dream vote data table
+description: Connection of vote alignment to dream MP
+custom:
+  row_count: 14829
+path: pw_dyn_dreamvote.parquet
+name: pw_dyn_dreamvote
+profile: data-resource
+scheme: file
+format: parquet
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: division_date
+    type: string
+    description: Date of division
+    constraints:
+      unique: false
+    example: '1997-05-19'
+  - name: division_number
+    type: integer
+    description: Division number
+    constraints:
+      unique: false
+    example: 0
+  - name: dream_id
+    type: integer
+    description: ID of dream MP
+    constraints:
+      unique: false
+    example: 1
+  - name: vote
+    type: string
+    description: Vote of MP
+    constraints:
+      unique: false
+      enum:
+      - no3
+      - both
+      - aye
+      - 'no'
+      - aye3
+    example: aye
+  - name: house
+    type: string
+    description: House of MP
+    constraints:
+      unique: false
+      enum:
+      - commons
+      - lords
+      - scotland
+    example: commons
+hash: 46cbcf912a0a3f3a55ec986ec00b4ad2

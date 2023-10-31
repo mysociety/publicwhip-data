@@ -1,0 +1,12 @@
+*.pyc
+secrets.yaml
+.env
+data/private/*
+_render/_parts
+_render/_papermills
+docs/_site
+data/raw
+docs/_site
+docs/data
+docs/_*
+*.parquet

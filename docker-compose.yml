@@ -1,0 +1,9 @@
+services:
+  app:
+    image: mysociety/publicwhip-data:${TAG:-latest}
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    working_dir: /workspaces/publicwhip_data      
+    volumes:
+      - ./:/workspaces/publicwhip_data/

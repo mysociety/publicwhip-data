@@ -1,0 +1,51 @@
+title: Dream MP data table
+description: Datatable of 'dream MPs', user created to compare actual MPs to (powers
+  TWFY policy lines)
+custom:
+  row_count: 6975
+path: pw_dyn_dreammp.parquet
+name: pw_dyn_dreammp
+profile: data-resource
+scheme: file
+format: parquet
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: dream_id
+    type: integer
+    description: ID of dream MP
+    constraints:
+      unique: true
+    example: 1
+  - name: name
+    type: string
+    description: Name of dream MP
+    constraints:
+      unique: false
+    example: ' unofficial Nationalist party'
+  - name: user_id
+    type: integer
+    description: ID of user who created dream MP
+    constraints:
+      unique: false
+    example: 1
+  - name: description
+    type: string
+    description: Description of dream MP
+    constraints:
+      unique: false
+    example: "\r\nDefinition: This new left of centre party stands for Equality, Social\
+      \ Justice, Trade Unionism, Solidarity, Internationalism and Progressivism. \r\
+      \n"
+  - name: private
+    type: integer
+    description: Whether dream MP is private or visible on site
+    constraints:
+      unique: false
+      enum:
+      - 1
+      - 2
+      - 0
+    example: 0
+hash: 22a9374b9f4b089a2ee0e606fbd0a89d
