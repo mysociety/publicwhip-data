@@ -8,5 +8,5 @@ docs/_site
 data/raw
 docs/_site
 docs/data
-docs/_*
+docs/_*/
 *.parquet
