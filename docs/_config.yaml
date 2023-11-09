@@ -2,7 +2,7 @@ theme: jekyll-theme-slate
 title: publicwhip_data
 description: Reprocessing of public whip data.
 
-baseurl: "/publicwhip_data"
+baseurl: "/publicwhip-data"
 url: "https://pages.mysociety.org"
 
 collections:
