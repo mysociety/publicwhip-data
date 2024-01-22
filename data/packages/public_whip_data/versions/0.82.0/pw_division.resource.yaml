@@ -1,0 +1,107 @@
+title: Divisions
+description: Division data table
+custom:
+  row_count: 13055
+path: pw_division.parquet
+name: pw_division
+profile: data-resource
+scheme: file
+format: parquet
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: division_id
+    type: integer
+    description: ID of division
+    constraints:
+      unique: true
+    example: 10387
+  - name: valid
+    type: integer
+    description: Validity of division (Always true)
+    constraints:
+      unique: false
+      enum:
+      - 1
+    example: 1
+  - name: division_date
+    type: string
+    description: Date of division
+    constraints:
+      unique: false
+    example: '1997-05-19'
+  - name: division_number
+    type: integer
+    description: Division number
+    constraints:
+      unique: false
+    example: 0
+  - name: division_name
+    type: string
+    description: Division name
+    constraints:
+      unique: false
+    example: '"Duration of planning permission and consent'
+  - name: source_url
+    type: string
+    description: URL of source
+    constraints:
+      unique: false
+    example: ''
+  - name: motion
+    type: string
+    description: HTML text of motion
+    constraints:
+      unique: false
+    example: "<p class=\"\" pid=\".1002.1/1\" pwmotiontext=\"yes\">I beg to move amendment\
+      \ No. 22, in page 3, line 20, at end insert&#8212;</p>\n\n<p class=\"\" pid=\"\
+      .1002.1/2\" pwmotiontext=\"yes\">'(6A) In subsection (5) (motion for resolution\
+      \ not to be moved unless certain conditions are satisfied), for \"Presiding\
+      \ Officer in pursuance of a notice\" there is substituted \"Secretary of State\"\
+      .'.</p>\n\n<p pid=\".1008.4/1\" pwmotiontext=\"yes\"><i>Motion made, and Question\
+      \ put,</i> That the clause stand part of the Bill:&#8212;</p>\n\n<p pid=\".1008.4/2\"\
+      \ pwmotiontext=\"yes\"><i>The Committee divided:</i> Ayes 338, Noes 8.</p>"
+  - name: notes
+    type: string
+    description: Text of any associated database notes
+    constraints:
+      unique: false
+      enum:
+      - ''
+    example: ''
+  - name: debate_url
+    type: string
+    description: URL of debate
+    constraints:
+      unique: false
+    example: ''
+  - name: source_gid
+    type: string
+    description: GID of source
+    constraints:
+      unique: false
+    example: ''
+  - name: debate_gid
+    type: string
+    description: GID of debate
+    constraints:
+      unique: false
+    example: ''
+  - name: house
+    type: string
+    description: Which house the division was in
+    constraints:
+      unique: false
+      enum:
+      - commons
+      - lords
+      - scotland
+    example: commons
+  - name: clock_time
+    type: string
+    description: Time of division
+    constraints:
+      unique: false
+    example: ''
+hash: e5b434cad3d0e4709a80c08e617eaae6
