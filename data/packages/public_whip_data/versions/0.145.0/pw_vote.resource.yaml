@@ -1,0 +1,40 @@
+title: Vote data table
+description: Datatable of votes
+custom:
+  row_count: 4357969
+path: pw_vote.parquet
+name: pw_vote
+profile: data-resource
+scheme: file
+format: parquet
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: division_id
+    type: integer
+    description: ID of division
+    constraints:
+      unique: false
+    example: 10387
+  - name: mp_id
+    type: integer
+    description: ID of MP
+    constraints:
+      unique: false
+    example: 1
+  - name: vote
+    type: string
+    description: Vote of MP
+    constraints:
+      unique: false
+      enum:
+      - abstention
+      - aye
+      - both
+      - 'no'
+      - spoiled
+      - tellaye
+      - tellno
+    example: abstention
+hash: adacdb3a7039284859b4618104a43945
