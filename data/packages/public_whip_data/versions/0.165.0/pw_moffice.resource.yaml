@@ -1,0 +1,59 @@
+title: Ministerial office data table
+description: Connection of ministerial office to person
+custom:
+  row_count: 20802
+path: pw_moffice.parquet
+name: pw_moffice
+profile: data-resource
+scheme: file
+format: parquet
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: moffice_id
+    type: integer
+    description: ID of ministerial office
+    constraints:
+      unique: true
+    example: 72865683
+  - name: dept
+    type: string
+    description: Department of ministerial office
+    constraints:
+      unique: false
+    example: ''
+  - name: position
+    type: string
+    description: Position of ministerial office
+    constraints:
+      unique: false
+    example: ' Spokesperson for the Cabinet Office, Spokesperson for Constitutional
+      Affairs, Spokesperson for Scotland'
+  - name: from_date
+    type: string
+    description: Start date of ministerial office
+    constraints:
+      unique: false
+    example: '1929-01-01'
+  - name: to_date
+    type: string
+    description: End date of ministerial office
+    constraints:
+      unique: false
+    example: '1929-02-01'
+  - name: person
+    type: integer
+    description: ID of person
+    constraints:
+      unique: false
+    example: 10001
+  - name: responsibility
+    type: string
+    description: Responsibility of ministerial office
+    constraints:
+      unique: false
+      enum:
+      - ''
+    example: ''
+hash: e9b132f9f5de6a06be70ba8ffbcf683a
