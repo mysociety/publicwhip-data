@@ -1,0 +1,106 @@
+title: MP membership table
+description: Datatable of MP information
+custom:
+  row_count: 7968
+path: pw_mp.parquet
+name: pw_mp
+profile: data-resource
+scheme: file
+format: parquet
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: mp_id
+    type: integer
+    description: ID of MP
+    constraints:
+      unique: true
+    example: 1
+  - name: first_name
+    type: string
+    description: First name of MP
+    constraints:
+      unique: false
+    example: ''
+  - name: last_name
+    type: string
+    description: Last name of MP
+    constraints:
+      unique: false
+    example: ''
+  - name: title
+    type: string
+    description: Title of MP
+    constraints:
+      unique: false
+    example: ''
+  - name: constituency
+    type: string
+    description: Constituency of MP
+    constraints:
+      unique: false
+    example: ''
+  - name: party
+    type: string
+    description: Party of MP
+    constraints:
+      unique: false
+    example: Alba
+  - name: entered_house
+    type: string
+    description: Date of MP entering house
+    constraints:
+      unique: false
+    example: '1935-00-00'
+  - name: left_house
+    type: string
+    description: Date of MP leaving house
+    constraints:
+      unique: false
+    example: '1997-05-08'
+  - name: entered_reason
+    type: string
+    description: Reason for MP entering house
+    constraints:
+      unique: false
+      enum:
+      - appointed
+      - became_presiding_officer
+      - by_election
+      - changed_party
+      - general_election
+      - regional_election
+      - reinstated
+      - replaced_in_region
+      - unknown
+    example: appointed
+  - name: left_reason
+    type: string
+    description: Reason for MP leaving house
+    constraints:
+      unique: false
+    example: became_peer
+  - name: person
+    type: integer
+    description: ID of person
+    constraints:
+      unique: false
+    example: 10001
+  - name: house
+    type: string
+    description: House of MP
+    constraints:
+      unique: false
+      enum:
+      - commons
+      - lords
+      - scotland
+    example: commons
+  - name: gid
+    type: string
+    description: ID of MP
+    constraints:
+      unique: true
+    example: uk.org.publicwhip/lord/100001
+hash: 34026a9a1eff588053641d37eb375dfd
